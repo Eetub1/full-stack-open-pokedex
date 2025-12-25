@@ -3,9 +3,10 @@ module.exports = {
     "browser": true,
     "es6": true,
     "jest/globals": true,
-    "es2021": true
+    "es2021": true,
+    "node": true
   },
-  "settings:": {
+  "settings": {
     "react": {
       "version": "detect", // Fixes the "React version not specified" warning
     },
