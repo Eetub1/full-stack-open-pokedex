@@ -2,7 +2,13 @@ module.exports = {
   "env": {
     "browser": true,
     "es6": true,
-    "jest/globals": true
+    "jest/globals": true,
+    "es2021": true
+  },
+  "settings:": {
+    "react": {
+      "version": "detect", // Fixes the "React version not specified" warning
+    },
   },
   "extends": [
     "eslint:recommended",
